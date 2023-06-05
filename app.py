@@ -175,7 +175,7 @@ def update_trip_count(greaterThan):
     ],
 )
 
-config = Config(profile="PROFILE", cluster_id="CLUSTER_ID")
+config = Config(profile="DOLLYLLAMA", cluster_id="0605-072114-4tpqwdsr")
 spark = SparkSession.builder.sdkConfig(config).getOrCreate()
 
 
